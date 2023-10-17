@@ -5,6 +5,12 @@
 3. Google Translate API: テキストを翻訳。
 4. フロントエンド: 翻訳されたテキストをリアルタイムで表示。
 
+## 意識してること
+- 費用
+- レイテンシー
+- カスタマイズ性
+- 依存関係の少なさ
+
 ## アーキテクチャ
 ```mermaid
 graph TD
@@ -92,3 +98,6 @@ Cloud Translation - Basicで足りそう。原文テキストベースで課金�
 - [Cloud Translation の料金](https://cloud.google.com/translate/pricing?hl=ja)
   - Cloud Translation が処理するテキストの量に対して課金
   - たとえば、原文の言語を指定せずに 1,000 文字を翻訳する場合、請求は 1,000 文字に対してのみ発生します。
+
+## 調べた方がいいけど、あんまり調べてないこと
+- ビデオ通話について、APIとかSass等のサービスあんまり調べてません。。高そうな雰囲気あったので。WebRTCの細かい仕様（TURNサーバーやSTUNサーバーが必要か、、PtoPだけで成り立つか）。
