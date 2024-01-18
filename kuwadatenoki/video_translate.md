@@ -70,7 +70,7 @@ sequenceDiagram
 ### WebRTC Server
 通信経由するためのサーバーを構築せなあかん？
 （P2P通信を補完するTURNサーバーなどの維持費用が必要かも）
-### SpeechAPI
+### Web Speech API
 無料のはず。。
 ### Google TranslateAPI
 Cloud Translation - Basicで足りそう。原文テキストベースで課金。
